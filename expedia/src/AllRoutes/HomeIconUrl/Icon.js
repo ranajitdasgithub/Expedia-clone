@@ -10,6 +10,16 @@ const iconObj={
     calendar:"https://cdn-icons.flaticon.com/png/512/3127/premium/3127961.png?token=exp=1658307489~hmac=129ad3f1534ec9ea91d40a626e31ad51",
     middleImg:"https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg",
     qr:"https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/1_QR_FOOTER_BNA_HP.png",
-    getmoreImg:"https://a.travel-assets.com/travel-assets-manager/5348/MTT-HP-Hero-D-928x398.jpg"
+    getmoreImg:"https://a.travel-assets.com/travel-assets-manager/5348/MTT-HP-Hero-D-928x398.jpg",
+    pen:"https://cdn-icons-png.flaticon.com/512/1250/1250925.png",
+    dollar:"https://cdn-icons-png.flaticon.com/512/63/63977.png",
+    chat:"https://cdn-icons-png.flaticon.com/512/8025/8025994.png",
+    m1:"https://a.travel-assets.com/travel-assets-manager/4943-madetotravel/MTT-HP-Editorial-3up-384x256-5.jpg",
+    m2:"https://a.travel-assets.com/travel-assets-manager/3301-road-trips/NORAM-Merch-HP-Editorial-3up-384x256-1.jpg",
+    m3:"https://a.travel-assets.com/travel-assets-manager/cmct-5183/US-CA-MX-HP-Editorial-3up-384x256.jpg",
+    m4:"https://a.travel-assets.com/travel-assets-manager/cmct-5157/US-CA-MX-HP-Editorial-2up-457x257.jpg",
+    m5:"https://a.travel-assets.com/travel-assets-manager/cmct-4862/POSa-HP-Editorial-2up-457x257-No01.jpg",
+    expediaLogo:"https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg",
+    chatBlue:"https://cdn-icons-png.flaticon.com/512/3843/3843544.png"
 }
 export default iconObj

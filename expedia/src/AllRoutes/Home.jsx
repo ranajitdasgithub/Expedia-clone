@@ -3,6 +3,8 @@ import { BellIcon, ChevronDownIcon } from '@chakra-ui/icons'
 import iconObj from "./HomeIconUrl/Icon"
 import Stay from "./HomeIconUrl/Stay"
 import HomeMiddle from "./Components/HomeMiddle"
+import UpperFooter from "./Components/UpperFooter"
+import Footer from "./Components/Footer"
 
 function Home(){
     return (
@@ -80,6 +82,8 @@ function Home(){
         </Box>
 
         <HomeMiddle/>
+        <UpperFooter/>
+        <Footer/>
       </Container>
     )
 }
