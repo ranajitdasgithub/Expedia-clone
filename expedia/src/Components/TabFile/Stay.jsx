@@ -1,6 +1,6 @@
 import { Box, Button, Center, Checkbox, Container, Flex, HStack, Img, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react"
 import { BellIcon, ChevronDownIcon } from '@chakra-ui/icons'
-import iconObj from "./Icon"
+import iconObj from "../../AllData/Icon"
 function Stay(){
     return (
     <div>

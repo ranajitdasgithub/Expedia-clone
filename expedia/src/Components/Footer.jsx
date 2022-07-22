@@ -1,5 +1,5 @@
 import { Box, Button, Img, Text } from "@chakra-ui/react"
-import iconObj from "../HomeIconUrl/Icon"
+import iconObj from "../AllData/Icon"
 
 function Footer(){
     return (<>

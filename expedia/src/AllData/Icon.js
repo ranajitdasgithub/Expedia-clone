@@ -20,6 +20,13 @@ const iconObj={
     m4:"https://a.travel-assets.com/travel-assets-manager/cmct-5157/US-CA-MX-HP-Editorial-2up-457x257.jpg",
     m5:"https://a.travel-assets.com/travel-assets-manager/cmct-4862/POSa-HP-Editorial-2up-457x257-No01.jpg",
     expediaLogo:"https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg",
-    chatBlue:"https://cdn-icons-png.flaticon.com/512/3843/3843544.png"
+    chatBlue:"https://cdn-icons-png.flaticon.com/512/3843/3843544.png",
+    Logo:"https://www.expedia.com/_dms/header/logo.svg?locale=en_US&siteid=1&2",
+    terms:"https://www.expedia.com/lp/lg-legal",
+    privacy:"https://www.expedia.com/lp/lg-legal",
+    rewards:"https://www.expedia.com/lp/b/exp-rewards-terms",
+    apple:"https://a.travel-assets.com/egds/marks/apple.svg",
+    facebook:"https://a.travel-assets.com/egds/marks/facebook.svg",
+    gmail:"https://a.travel-assets.com/egds/marks/google.svg"
 }
 export default iconObj

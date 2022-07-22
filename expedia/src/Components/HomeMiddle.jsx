@@ -1,6 +1,7 @@
 import { ChevronDownIcon } from "@chakra-ui/icons"
 import { Box, Button, Heading, Img, Input, InputGroup, InputLeftElement, InputRightElement, Text } from "@chakra-ui/react"
-import iconObj from "../HomeIconUrl/Icon"
+import iconObj from "../AllData/Icon"
+
 
 function HomeMiddle(){
     return (<>

@@ -1,10 +1,11 @@
 import { Box, Button, Center, Checkbox, Container, Flex, HStack, Img, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react"
 import { BellIcon, ChevronDownIcon } from '@chakra-ui/icons'
-import iconObj from "./HomeIconUrl/Icon"
-import Stay from "./HomeIconUrl/Stay"
-import HomeMiddle from "./Components/HomeMiddle"
-import UpperFooter from "./Components/UpperFooter"
-import Footer from "./Components/Footer"
+import iconObj from "../AllData/Icon"
+import Stay from "../Components/TabFile/Stay"
+import HomeMiddle from "../Components/HomeMiddle"
+import UpperFooter from "../Components/UpperFooter"
+import Footer from "../Components/Footer"
+import SignIn from "../Components/SignIn"
 
 function Home(){
     return (
@@ -14,7 +15,7 @@ function Home(){
         <HStack spacing="27rem">
             <Box id="navbarleft" display="flex">
                 
-            <Box display="flex" alignItems="center" ml="70px" ><Img h="75%" src="https://www.expedia.com/_dms/header/logo.svg?locale=en_US&siteid=1&2"/></Box>
+            <Box display="flex" alignItems="center" ml="70px" ><Img h="75%" src={iconObj.Logo}/></Box>
             <Box>
             <Menu>
                 <MenuButton bg="none" as={Button} rightIcon={<ChevronDownIcon/>} >
@@ -40,7 +41,7 @@ function Home(){
                 <Box>Support</Box>
                 <Box>Trips</Box>
                 <Box><BellIcon w={6} h={6}/></Box>
-                <Box>Sign in</Box>
+                <Box><SignIn/></Box>
                 </Flex>
              </Box>
              </HStack>
