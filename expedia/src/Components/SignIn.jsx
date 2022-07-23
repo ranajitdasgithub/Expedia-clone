@@ -17,6 +17,9 @@ function SignIn() {
     const handleLogin=()=>{
             navigate("/login")
     }
+    const handleSignup=()=>{
+        navigate("/signup")
+}
     return (
       <>
         <Button bg='none' mt='-.5rem' ml='-1.6rem' onClick={onOpen}>Sign in</Button>
@@ -29,7 +32,7 @@ function SignIn() {
                 <ModalHeader>You could be getting lower prices</ModalHeader>
                 <Text>Save 10% or more on thousands of prpperties.</Text>
                 <Button onClick={handleLogin} w='100%' bg='blue' color='white'>Sign in</Button>
-                <Button ml='31%' mt='1rem' textAlign='center'>Sign up, it`s free</Button>
+                <Button  onClick={handleSignup} ml='31%' mt='1rem' textAlign='center'>Sign up, it`s free</Button>
                 <Text>List of favorites</Text>
                 <Text>Expedia Rewards</Text>
               </Box>

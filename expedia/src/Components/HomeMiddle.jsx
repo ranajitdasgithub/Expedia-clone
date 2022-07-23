@@ -1,5 +1,6 @@
 import { ChevronDownIcon } from "@chakra-ui/icons"
 import { Box, Button, Heading, Img, Input, InputGroup, InputLeftElement, InputRightElement, Text } from "@chakra-ui/react"
+import { Link } from "react-router-dom"
 import iconObj from "../AllData/Icon"
 
 
@@ -60,34 +61,43 @@ function HomeMiddle(){
         </Box>
         {/* Lower middle 5 image section */}
         <Box  w="91%"  m='2rem auto' display="flex" gap='26px' textAlign='start'>
+            <Link to='/fullhotel'>
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m1} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>VIP ACCESS</Text>
                 <Text fontSize="16px" fontWeight='600'>The view looks even better as a VIP</Text>
             </Box>
+            </Link>
+            <Link to='/fullhotel'>
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m2} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>GRAB YOUR KEYS</Text>
                 <Text fontSize="16px" fontWeight='600'>You need a change of scenery</Text>
             </Box>
+            </Link>
+            <Link to="/fullhotel">
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m3} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>BROADEN YOUR HORIZONS</Text>
                 <Text fontSize="16px" fontWeight='600'>There's a whole lo of world out there-go see more of it</Text>
             </Box>
+            </Link>
         </Box>
         <Box  w="91%"  m='2rem auto' display="flex" gap='26px' textAlign='start'>
+            <Link to="/fullhotel">
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m4} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>FOR THE LOVE OF SUMMER</Text>
                 <Text fontSize="16px" fontWeight='600'>Chase the sun to someplace extraordinary</Text>
             </Box>
+            </Link>
+            <Link to="/fullhotel">
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m5} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>YOUR BEACH BLISS AWAITS</Text>
                 <Text fontSize="16px" fontWeight='600'>Experience ultimate relaxation with a coastal getaway</Text>
             </Box>
-           
+            </Link>
         </Box>
     
     </>)
