@@ -1,51 +1,30 @@
-import { Box, Button, Center, Checkbox, Container, Flex, HStack, Img, Input, InputGroup, InputLeftElement, Menu, MenuButton, MenuItem, MenuList, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react"
-import { BellIcon, ChevronDownIcon } from '@chakra-ui/icons'
-import iconObj from "../AllData/Icon"
+import { Box, Center, Container, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react"
+
 import Stay from "../Components/TabFile/Stay"
 import HomeMiddle from "../Components/HomeMiddle"
 import UpperFooter from "../Components/UpperFooter"
 import Footer from "../Components/Footer"
-import SignIn from "../Components/SignIn"
+import Flights from "../Components/TabFile/Flights"
+import { useEffect, useState } from "react"
+import Navbar from "../Components/Navbar"
+import { getData } from "../Components/Api"
 
 function Home(){
+    const [dataa,setData]=useState([])
+    useEffect(()=>{
+     getData()
+     .then((res)=>{
+         setData(res.data)
+     })
+     .catch((err)=>{
+         console.log(err)
+     })
+    },[])
+    console.log(dataa,"eta")
     return (
         <Container  m='0' p='0' maxW="100%">
             
-        <Box w="100%" h='5rem' display='flex' borderBottom='1px' borderColor='gray.300'>
-        <HStack spacing="27rem">
-            <Box id="navbarleft" display="flex">
-                
-            <Box display="flex" alignItems="center" ml="70px" ><Img h="75%" src={iconObj.Logo}/></Box>
-            <Box>
-            <Menu>
-                <MenuButton bg="none" as={Button} rightIcon={<ChevronDownIcon/>} >
-                    More travel
-                </MenuButton>
-                <MenuList>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.a}/>Stays</MenuItem>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.b}/>Flights</MenuItem>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.c}/>Cars</MenuItem>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.d}/>Packages</MenuItem>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.e}/>Things to do</MenuItem>
-                    <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.f}/>Cruises</MenuItem>
-                    <MenuItem>Deals</MenuItem>
-                    <MenuItem>Groups & meetings</MenuItem>
-                </MenuList>
-            </Menu>
-            </Box>
-            </Box>
-            <Box id="navboxright" >
-                <Flex gap="2rem">
-                <Box display="flex" alignItem="center"><Box><Img mt="5px" mr='10px' w="17px" h="17px" src={iconObj.world}/></Box> <Text>English</Text></Box>
-                <Box>List your property</Box>
-                <Box>Support</Box>
-                <Box>Trips</Box>
-                <Box><BellIcon w={6} h={6}/></Box>
-                <Box><SignIn/></Box>
-                </Flex>
-             </Box>
-             </HStack>
-        </Box>
+       <Navbar/>
         <Box id="tabBar" w="90%" border="1px solid" h='auto' m='auto' my='4rem' borderRadius='10px' borderColor="gray.300">
             <Box id="tablist" w='97%' m='auto' mt='20px'>
                 
@@ -68,14 +47,14 @@ function Home(){
                         <Stay/>
                     </TabPanel>
                     <TabPanel>
-                    <p>two!</p>
+                        <Flights/>
                     </TabPanel>
                     <TabPanel>
-                    <p>three!</p>
+                    <Stay/>
                     </TabPanel>
-                    <TabPanel>four</TabPanel>
-                    <TabPanel>five</TabPanel>
-                    <TabPanel>six</TabPanel>
+                    <TabPanel><Flights/></TabPanel>
+                    <TabPanel><Stay/></TabPanel>
+                    <TabPanel><Flights/></TabPanel>
                 </TabPanels>
             </Tabs>
             

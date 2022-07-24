@@ -27,6 +27,7 @@ const iconObj={
     rewards:"https://www.expedia.com/lp/b/exp-rewards-terms",
     apple:"https://a.travel-assets.com/egds/marks/apple.svg",
     facebook:"https://a.travel-assets.com/egds/marks/facebook.svg",
-    gmail:"https://a.travel-assets.com/egds/marks/google.svg"
+    gmail:"https://a.travel-assets.com/egds/marks/google.svg",
+    userProfile:"https://cdn-icons.flaticon.com/png/512/552/premium/552721.png?token=exp=1658589257~hmac=bfe879c79508204fac53880f89b8461d"
 }
 export default iconObj
