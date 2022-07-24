@@ -1,0 +1,178 @@
+{
+  "logindata": [
+    {
+      "id": 1,
+      "firstname": "Ranajit",
+      "lastname": "typicode",
+      "email":"dasranajit410@gmail.com",
+      "password":"12345",
+      "auth":false
+    }
+  ],
+  "hoteldata":[
+    {
+      "url":"https://images.trvl-media.com/hotels/2000000/1860000/1857300/1857289/c16a098c_b.jpg",
+      "name":"Trump International Hotel Las Vegas",
+      "place":"Las Vegas",
+      "rating":"4.6",
+      "review":"5689",
+      "price":"104"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/2000000/1730000/1723300/1723215/f5255b30_b.jpg",
+      "name":"Trump International Hotel",
+      "place":"Chicago",
+      "rating":"4.7",
+      "review":"1000",
+      "price":"322"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/870000/864300/864219/d6f96f60_b.jpg",
+      "name":"Sofitel Chicago Magnificent",
+      "place":"Paris",
+      "rating":"4.5",
+      "review":"1420",
+      "price":"181"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/2000000/1250000/1248400/1248348/d134787f_b.jpg",
+      "name":"Hotel de Nell",
+      "place":"New York",
+      "rating":"4.6",
+      "review":"390",
+      "price":"234"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/9000000/8970000/8965800/8965758/172a459b_b.jpg",
+      "name":"Le Cinq Codet",
+      "place":"Paris",
+      "rating":"4.6",
+      "review":"730",
+      "price":"333"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/21000000/20170000/20160800/20160759/e31ef8a9_b.jpg",
+      "name":"The Oberoi, New Delhi",
+      "place":"New Delhi",
+      "rating":"4.9",
+      "review":"154",
+      "price":"172"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/80000/75800/75755/5626de23_b.jpg",
+      "name":"The Imprial New Delhi",
+      "place":"New Delhi",
+      "rating":"4.7",
+      "review":"458",
+      "price":"185"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/5000000/4330000/4327800/4327701/8258bc4d_b.jpg",
+      "name":"The Oberoi Gurgaon",
+      "place":"Delhi",
+      "rating":"4.8",
+      "review":"322",
+      "price":"145"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/490000/486300/486249/be1d1259_b.jpg",
+      "name":"JA Oasis Beach Tower",
+      "place":"Dubai",
+      "rating":"4.6",
+      "review":"1181",
+      "price":"110"
+
+    }
+  ],
+  "hoteldata1":[
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/70000/63400/63317/6a534c49_b.jpg",
+      "name":"Trump International Hotel Las Vegas",
+      "place":"Las Vegas",
+      "rating":"4.6",
+      "review":"5689",
+      "price":"104"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/20000000/19270000/19268500/19268469/a0d642cd_b.jpg",
+      "name":"Trump International Hotel",
+      "place":"Chicago",
+      "rating":"4.7",
+      "review":"1000",
+      "price":"322"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/2000000/1750000/1746400/1746352/995e6cbf_b.jpg",
+      "name":"Sofitel Chicago Magnificent",
+      "place":"Paris",
+      "rating":"4.5",
+      "review":"1420",
+      "price":"181"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/80000/71500/71447/1a3db9d2_b.jpg",
+      "name":"Hotel de Nell",
+      "place":"New York",
+      "rating":"4.6",
+      "review":"390",
+      "price":"234"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/4000000/3820000/3814200/3814135/256c2088_b.jpg",
+      "name":"Le Cinq Codet",
+      "place":"Paris",
+      "rating":"4.6",
+      "review":"730",
+      "price":"333"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/540000/537200/537146/23eae0c1_b.jpg",
+      "name":"The Oberoi, New Delhi",
+      "place":"New Delhi",
+      "rating":"4.9",
+      "review":"154",
+      "price":"172"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/80000/75800/75755/5626de23_b.jpg",
+      "name":"The Imprial New Delhi",
+      "place":"New Delhi",
+      "rating":"4.7",
+      "review":"458",
+      "price":"185"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/5000000/4330000/4327800/4327701/8258bc4d_b.jpg",
+      "name":"The Oberoi Gurgaon",
+      "place":"Delhi",
+      "rating":"4.8",
+      "review":"322",
+      "price":"145"
+
+    },
+    {
+      "url":"https://images.trvl-media.com/hotels/1000000/490000/486300/486249/be1d1259_b.jpg",
+      "name":"JA Oasis Beach Tower",
+      "place":"Dubai",
+      "rating":"4.6",
+      "review":"1181",
+      "price":"110"
+
+    }
+  ]
+}
