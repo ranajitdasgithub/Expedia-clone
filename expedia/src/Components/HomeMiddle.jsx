@@ -68,7 +68,7 @@ function HomeMiddle(){
                 <Text fontSize="16px" fontWeight='600'>The view looks even better as a VIP</Text>
             </Box>
             </Link>
-            <Link to='/fullhotel'>
+            <Link to='/fullhotel1'>
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m2} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>GRAB YOUR KEYS</Text>
@@ -84,7 +84,7 @@ function HomeMiddle(){
             </Link>
         </Box>
         <Box  w="91%"  m='2rem auto' display="flex" gap='26px' textAlign='start'>
-            <Link to="/fullhotel">
+            <Link to="/fullhotel1">
             <Box cursor='pointer'>
                 <Img borderRadius='10px' w='100%' src={iconObj.m4} />
                 <Text fontSize="12px" mt='14px' fontWeight='400'>FOR THE LOVE OF SUMMER</Text>

@@ -20,14 +20,26 @@ function Navbar(){
                 <MenuList>
                     <Link to='/fullhotel'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.a}/>Stays</MenuItem>
+                    </Link>
+                    <Link to='/fullhotel1'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.b}/>Flights</MenuItem>
+                    </Link>
+                    <Link to='/fullhotel'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.c}/>Cars</MenuItem>
+                    </Link>
+                    <Link to='/fullhotel1'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.d}/>Packages</MenuItem>
+                    </Link>
+                    <Link to='/fullhotel'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.e}/>Things to do</MenuItem>
+                    </Link>
+                    <Link to='/fullhotel1'>
                     <MenuItem><Img mr='10px' w="17px" h="17px" src={iconObj.f}/>Cruises</MenuItem>
                     </Link>
+                    <Link to='/fullhotel'>
                     <MenuItem>Deals</MenuItem>
                     <MenuItem>Groups & meetings</MenuItem>
+                    </Link>
                 </MenuList>
             </Menu>
             </Box>
